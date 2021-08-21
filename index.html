@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="shortcut icon" href="Resources/iCon.png" type="image/x-icon">
+    <title>iMac bLue</title>
+</head>
+
+
+<body>
+
+
+    <header>
+        <section>
+            <h1 class="d-flex justify-content-center mt-5 px-5 text-center">
+                Customize your Blue 24‑inch iMac with Apple M1 chip.
+            </h1>
+        </section>
+
+    </header>
+
+    <main>
+
+
+        <section div class="container">
+            <section class="row">
+                <!----------------
+                    Image section  
+                ------------------>
+                <section class="col-lg-5 col-md-12 mt-3">
+                    <div>
+                        <img class="container-fluid" src="/Resources/iMac.PNG" alt="iMac">
+                    </div>
+                </section>
+
+                <section class="col-lg-7 col-md-12 mt-5 px-5">
+
+                    <div>
+                        <p>
+                        <h4>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU,
+                            and 16-core Neural Engine.</h4>
+                        </p>
+                    </div>
+                    <!-----------
+                      Ram Section
+                    ------------->
+                    <div class="mt-4">
+                        <h5>
+                            Memory
+                        </h5>
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button id="ram8gb" type="button" class="btn btn-secondary custombutton">8GB unified
+                                memory</button>
+                            <button id="ram16gb" type="button" class="btn btn-secondary custombutton ">16GB unified
+                                memory</button>
+                        </div>
+                    </div>
+
+                    <!-------------
+                    Storage Section
+                    --------------->
+                    <div class="mt-4">
+                        <h5>
+                            Storage
+                        </h5>
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button id="hd256gb" type="button " class="btn btn-secondary custombutton">256GB
+                                storage</button>
+                            <button id="hd512gb" type="button " class="btn btn-secondary custombutton ">512GB
+                                storage</button>
+                            <button id="hd1024gb" type="button " class="btn btn-secondary custombutton">1TB
+                                storage</button>
+                        </div>
+                    </div>
+
+                    <!---------------
+                     Delivary Section
+                    ----------------->
+                    <div class="mt-4">
+                        <h5>
+                            Choose your Delivery option
+                        </h5>
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button id="freeDeli" type="button " class="btn btn-secondary custombutton">Friday,14
+                                September FREE Premium Delivery</button>
+                            <button id="paidDeli" type="button " class="btn btn-secondary custombutton">Friday,24 August
+                                Delivery charge 20$</button>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <!--------------------
+                      Total Price Section
+                    ---------------------->
+                    <div>
+                        <table class="table caption-top">
+                            <tbody>
+                                <tr>
+                                    <th scope="col">Best price</th>
+                                    <th scope="col">$<span id="basicPrice">1299</span></th>
+                                </tr>
+                                <tr>
+                                    <th scope="col">Extra Memory Cost</th>
+                                    <th scope="col">$<span id="xtra-mem-price">00</span></th>
+                                </tr>
+                                <tr>
+                                    <th scope="col">Extra Storage Cost</th>
+                                    <th scope="col">$<span id="xtra-storage-price">00</span></th>
+                                </tr>
+                                <tr>
+                                    <th scope="col">Delivery charge</th>
+                                    <th>$<span id="deli-price">00</span></th>
+                                </tr>
+
+                                <tr>
+                                    <th scope="col" class="text-danger">Total price</th>
+                                    <th scope="col" class="text-danger">$<span id="total-price"> 00</span></th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </section>
+        </section>
+    </main>
+
+    <!-------------
+     Cupon Section
+     ------------->
+    <footer>
+        <br>
+        <br>
+        <h3 class="text-center">Add Promo Code</h3>
+        <div class="d-flex justify-content-center">
+            <input id="Cuponcode" type="text">
+            <button type="button" id="Cuponapply" class="btn btn-primary">Apply</button>
+        </div>
+        <hr>
+        <h1 class="d-flex justify-content-center">Total:$<Span id="cuponTotal">00</Span></h1>
+    </footer>
+
+    <script src=" /js/main.js">
+    </script>
+</body>
+
+</html>
